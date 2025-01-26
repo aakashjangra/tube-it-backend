@@ -1,0 +1,17 @@
+{
+  "name": "tube-it",
+  "version": "1.0.0",
+  "description": "video streaming platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "backend",
+    "express",
+    "nodejs"
+  ],
+  "author": "Akash",
+  "license": "ISC"
+}

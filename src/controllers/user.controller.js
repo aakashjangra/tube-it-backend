@@ -23,6 +23,7 @@ const generateAccessAndRefreshTokens = async (userId) => {
 
 const registerUser = asyncHandler(async (req, res) => {
   const { fullname, username, email, password } = req.body;
+  // + avatar(required) and localCoverImage(optional)
 
   if (
     [fullname, username, email, password].some((field) => field?.trim() === "")
